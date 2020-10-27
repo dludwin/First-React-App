@@ -1,17 +1,17 @@
-import React from 'react'
-import Navigation from './Navigation'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import Navigation from './Navigation';
+import { Link } from 'react-router-dom';
 
-function Header(){
-    return (
-        <header className="border-b p-3 flex justify-between items-center">
-            <Link to="/" className="font-bold">
-                AppName
-            </Link>
+function Header() {
+	return (
+		<header className="border-b-4 p-3 flex justify-between items-center">
+			<Link to="/" className="font-bold">
+				AppName
+			</Link>
 
-            <Navigation />
-        </header>
-    )
+			<Navigation />
+		</header>
+	);
 }
 
-export default Header
+export default Header;
